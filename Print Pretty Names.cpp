@@ -61,7 +61,7 @@ void Solution::dfsPrint(Employee *emp, int indent)
 
 	for (auto e : *emp->team)		//Traverse Through The Current Employee's Team And Again Do A Recrusive Call With An Indentation Of 3 For Better Look.
 	{
-			dfsPrint(e,indent + 3);
+		dfsPrint(e,indent + 3);
 	}
 
 }
